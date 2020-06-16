@@ -91,6 +91,7 @@ const styles = StyleSheet.create({
   repository: {
     fontSize: 32,
     fontWeight: "bold",
+    textAlign: "center",
   },
   techsContainer: {
     flexDirection: "row",
@@ -100,6 +101,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: "bold",
     marginRight: 10,
+    marginLeft: 25,
     backgroundColor: "#04d361",
     paddingHorizontal: 10,
     paddingVertical: 5,
@@ -122,10 +124,12 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 14,
     fontWeight: "bold",
-    marginRight: 10,
+    marginRight: 90,
+    marginLeft: 90,
+    marginBottom: 20,
     color: "#fff",
     backgroundColor: "#7159c1",
-    padding: 15,
+    padding: 10,
     borderRadius: 20,
     textAlign: "center",
   },
